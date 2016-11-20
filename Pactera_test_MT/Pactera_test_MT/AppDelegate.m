@@ -22,7 +22,6 @@
     NewsViewController *viewController=[[NewsViewController alloc]init];
     UINavigationController *navController=[[[UINavigationController alloc]initWithRootViewController:viewController] autorelease];
     self.window.rootViewController=navController;
-//    [self.window addSubview:navController.view];
     self.window.backgroundColor = [UIColor whiteColor];
     
     [self.window makeKeyAndVisible];

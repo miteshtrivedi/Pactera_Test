@@ -14,4 +14,10 @@
 @property (retain,nonatomic)NSMutableArray *arrNews;
 @property (retain,nonatomic) NSMutableDictionary *imageDict;
 @property (readwrite,assign) BOOL isDragging_msg, isDecliring_msg;
+
+/***** Method Declaration ****/
+-(void)webAPICall;
+-(void)lazyDownloadImage:(NSIndexPath *)path;
+-(CGFloat)getDynamicTextHeight:(NSString *)strText isTitle:(BOOL)isTitle;
+
 @end
